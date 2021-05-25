@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-:root{
-    --br:5px;
-}
+
 
 body{
     background-image: url(/10.jpg);
@@ -14,7 +12,9 @@ body{
     background-repeat: no-repeat;
 }
 
-
+:root{
+    --br:5px;
+}
 
 header{
     position: relative;
