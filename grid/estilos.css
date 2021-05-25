@@ -1,0 +1,150 @@
+
+
+.contenedor{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(6,300px);
+    padding: 10px;
+    /* column-gap: 10px;
+    row-gap: 15px; */
+    gap: 10px 20px;
+}
+
+.elemento{
+    background-color: rgb(42, 48, 73);
+    border-radius:1cm ;
+}
+.e8{
+    width: 900px;
+    height: 600px;
+    grid-area: 1/3/1/1;
+}
+.e9{
+    width: 300px;
+    height: 300px;
+    grid-area: 2/4/1/4;
+}
+.e10{
+    width: 300px;
+    height: 300px;
+    grid-area: 3/4/2/4;
+}
+
+.e1{
+    height: 600px;
+    width: 300px;
+    grid-area: 3/1/3/1;
+}
+
+
+.e2{
+    height: 300px;
+    width: 600px;
+    grid-area: 3/4/4/2;
+}
+
+.e3{
+    height: 300px;
+    width: 600px;
+    grid-area: 5/4/4/2;
+}
+.e4{
+    height: 300px;
+    width: 300px;
+    grid-area: 4/5/3/4;
+}
+
+.e5{
+    height: 600px;
+    width: 300px;
+    grid-area: 6/5/4/4;
+}
+
+.e6{
+    height: 600px;
+    width: 900px;
+    grid-area: 7/4/5/1;
+}
+
+.e7{
+    height: 300px;
+    width: 300px;
+    grid-area: 7/4/6/4;
+}
+
+
+@media (max-width:1000px){
+
+    body{
+        width: 1000px;
+        justify-content: center;
+
+    }
+
+    .contenedor{
+        justify-content: center;
+        grid-template-columns: 150px;
+        grid-template-rows: repeat(10,450px);
+        
+    }
+
+    .e8{
+        width: 450px;
+        height: 300px;
+        grid-area: 2/2/1/1;
+    }
+
+    .e9{
+        width: 450px;
+        height: 450px;
+        grid-area: 3/2/2/1;
+    }
+
+    .e10{
+        width: 450px;
+        height: 450px;
+        grid-area: 4/2/3/1;
+    }
+
+
+    .e1{
+        width: 300px;
+        height: 450px;
+        grid-area: 5/2/4/1;
+    }
+    
+    
+    .e2{
+        width: 450px;
+        grid-area: 6/2/5/1;
+    }
+    
+    .e3{
+        width: 450px;
+        grid-area: 7/2/6/1;
+    } 
+    .e4{
+        width: 450px;
+        height: 450px;
+        grid-area: 8/2/7/1;
+    }
+    
+    .e5{
+        height: 450px;
+        grid-area: 9/2/8/1;
+    }
+    
+    .e6{
+        width: 450px;
+        height: 300px;
+        grid-area: 10/2/9/1;
+    }
+    .e7{
+        width: 450px;
+        height: 450px;
+        grid-area: 11/2/10/1;
+    } 
+    
+    
+}
